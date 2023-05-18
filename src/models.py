@@ -16,6 +16,7 @@ class Usuario(Base):
     email = Column(String(50), nullable=False)
     username = Column(String(50), nullable=False)
     password = Column(String(50), nullable=False)
+    suscripcion_date = Column(String(50), nullable=False)
 
 class Planeta(Base):
     __tablename__ = 'planeta'
